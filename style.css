@@ -3,6 +3,55 @@
     padding: 0;
     font-family: 'Lato', sans-serif;
 }
+
+
+.navber_first{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    padding: 20px;
+    background-color: black;
+}
+.nav_01{
+    color: white;
+    font-size: 45px;
+    font-weight: 800;
+
+}
+.nav_01 span{
+    color: #f80036;
+}
+.nav_2 ul{
+    display: flex;
+    list-style: none;
+    font-weight: 700;
+    margin-top: 26px;
+}
+.nav_2 ul li{
+    margin-right: 40px;
+}
+.nav_2 ul li a{
+    text-decoration: none;
+    color: white;
+}
+.nav_2 ul li button{
+    font-size: 18px;
+    padding: 10px 25px;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #DB506E;
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+
 .section1{
     display: flex;
     justify-content: space-around;
